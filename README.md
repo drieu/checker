@@ -3,10 +3,15 @@ checker
 
 
 Checker is a simple hello world firefox plugin.
-You could find the same on firefow home pages.
+You could find the same on firefox home pages.
 
 How to build ?
 --------------
+
+If it doesn't exist, create a bin directory in $CHECKER_DIR.
+In $CHECKER_DIR, you will have the following :
+bin
+src
 
 
 ```shell
