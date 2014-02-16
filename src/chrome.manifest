@@ -1,0 +1,5 @@
+content   checker                content/
+skin      checker  classic/1.0   skin/
+locale    checker  en-US         locale/en-US/
+
+overlay chrome://browser/content/browser.xul  chrome://checker/content/browserOverlay.xul

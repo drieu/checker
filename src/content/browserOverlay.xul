@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/css" href="chrome://global/skin/" ?>
+<?xml-stylesheet type="text/css"
+  href="chrome://checker/skin/browserOverlay.css" ?>
+
+<!DOCTYPE overlay SYSTEM
+  "chrome://checker/locale/browserOverlay.dtd">
+
+<overlay id="checker-browser-overlay"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript"
+    src="chrome://checker/content/browserOverlay.js" />
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="checker-string-bundle"
+      src="chrome://checker/locale/browserOverlay.properties" />
+  </stringbundleset>
+
+  <menubar id="menu_ToolsPopup">
+    <menu id="checker-hello-menu" label="&checker.hello.label;"
+      accesskey="&checker.helloMenu.accesskey;" insertbefore="devToolsEndSeparator">
+      <menupopup>
+        <menuitem id="checker-hello-menu-item"
+          label="&checker.hello.label;"
+          accesskey="&checker.helloItem.accesskey;"
+          oncommand="XULSchoolChrome.BrowserOverlay.sayHello(event);" />
+      </menupopup>
+    </menu>
+  </menubar>
+
+  <vbox id="appmenuSecondaryPane">
+    <menu id="checker-hello-menu-2" label="&checker.hello.label;"
+      accesskey="&checker.helloMenu.accesskey;"
+      insertafter="appmenu_addons">
+      <menupopup>
+        <menuitem id="checker-hello-menu-item-2"
+          label="&checker.hello.label;"
+          accesskey="&checker.helloItem.accesskey;"
+          oncommand="XULSchoolChrome.BrowserOverlay.sayHello(event);" />
+      </menupopup>
+    </menu>
+  </vbox>
+</overlay>
