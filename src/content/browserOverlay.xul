@@ -26,6 +26,16 @@
           label="&checker.hello.label;"
           accesskey="&checker.helloItem.accesskey;"
           oncommand="XULSchoolChrome.BrowserOverlay.sayHello(event);" />
+	<menuitem id="checker-manage-server-menu-item"
+          label="&checker.manage.server;"
+          oncommand="XULSchoolChrome.BrowserOverlay.sayHello(event);" />
+	<menuseparator />
+		<menuitem id="server1-item"
+          label="Server 1"
+          oncommand="XULSchoolChrome.BrowserOverlay.sayHello(event);" />
+	<menuitem id="server1-item"
+          label="Server 2"
+          oncommand="XULSchoolChrome.BrowserOverlay.sayHello(event);" />
       </menupopup>
     </menu>
   </menubar>
@@ -38,6 +48,16 @@
         <menuitem id="checker-hello-menu-item-2"
           label="&checker.hello.label;"
           accesskey="&checker.helloItem.accesskey;"
+          oncommand="XULSchoolChrome.BrowserOverlay.sayHello(event);" />
+	<menuitem id="checker-manage-server-menu-item-2"
+          label="&checker.manage.server;"
+          oncommand="XULSchoolChrome.BrowserOverlay.sayHello(event);" />
+	<menuseparator />
+	<menuitem id="server1-item-2"
+          label="Server 1"
+          oncommand="XULSchoolChrome.BrowserOverlay.sayHello(event);" />
+	<menuitem id="server1-item-2"
+          label="Server 2"
           oncommand="XULSchoolChrome.BrowserOverlay.sayHello(event);" />
       </menupopup>
     </menu>

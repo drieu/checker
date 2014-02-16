@@ -1,3 +1,4 @@
-<!ENTITY checker.hello.label            "Hi World!">
+<!ENTITY checker.hello.label            "Checker">
+<!ENTITY checker.manage.server            "Manage server">
 <!ENTITY checker.helloMenu.accesskey    "l">
 <!ENTITY checker.helloItem.accesskey    "H">
