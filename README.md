@@ -1,0 +1,4 @@
+checker
+=======
+
+firefox plugin
