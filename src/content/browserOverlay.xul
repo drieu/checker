@@ -53,7 +53,7 @@
           label="&checker.manage.server;"
           oncommand="XULSchoolChrome.BrowserOverlay.sayHello(event);" />
 	<menuseparator />
-	<menuitem id="server1-item-2"
+	<menuitem class="menuitem-iconic" list-style="circle" id="server1-item-2"
           label="Server 1"
           oncommand="XULSchoolChrome.BrowserOverlay.sayHello(event);" />
 	<menuitem id="server1-item-2"
